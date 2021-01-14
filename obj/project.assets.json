@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nuryn\\Desktop\\CodingProjects\\BugTracker\\BugTracker.csproj",
+      "projectUniqueName": "C:\\Users\\nuryn\\Desktop\\CodingProjects\\Bug-Tracker\\BugTracker.csproj",
       "projectName": "BugTracker",
-      "projectPath": "C:\\Users\\nuryn\\Desktop\\CodingProjects\\BugTracker\\BugTracker.csproj",
+      "projectPath": "C:\\Users\\nuryn\\Desktop\\CodingProjects\\Bug-Tracker\\BugTracker.csproj",
       "packagesPath": "C:\\Users\\nuryn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nuryn\\Desktop\\CodingProjects\\BugTracker\\obj\\",
+      "outputPath": "C:\\Users\\nuryn\\Desktop\\CodingProjects\\Bug-Tracker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nuryn\\AppData\\Roaming\\NuGet\\NuGet.Config",
