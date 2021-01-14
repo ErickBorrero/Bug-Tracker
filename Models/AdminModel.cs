@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace BugTracker.Models
 {
-    public class Class
+    public class AdminModel : EmployeeModel
     {
+        public bool privileges { get; set; }
     }
 }

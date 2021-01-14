@@ -5,7 +5,13 @@ using System.Threading.Tasks;
 
 namespace BugTracker.Models
 {
-    public class Class
+    public class EmployeeModel
     {
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public int EmployeeId { get; set; }
+
     }
 }
