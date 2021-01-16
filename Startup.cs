@@ -28,7 +28,7 @@ namespace BugTracker
             services.AddControllersWithViews();
 
             services.AddDbContext<BugsContext>(options =>
-                options.UseSqlServer("Server = .,5433; Database = Default; User Id = sa; Password = Passw0rd;"));
+                options.UseSqlServer(@"Server = .,5433; Database = Default; User Id = sa; Password = Passw0rd;"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,7 +55,7 @@ namespace BugTracker
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Bugs}/{action=Index}/{id?}");
             });
         }
     }

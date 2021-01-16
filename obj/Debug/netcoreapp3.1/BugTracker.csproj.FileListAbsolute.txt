@@ -10,7 +10,6 @@ C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\BugTra
 C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\BugTracker.TagHelpers.input.cache
 C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\BugTracker.TagHelpers.output.cache
 C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\BugTracker.RazorCoreGenerate.cache
-C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -172,7 +171,9 @@ C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\bin\Debug\netcoreapp3.1\runtim
 C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Pages\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
-C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Delete.cshtml.g.cs
-C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
-C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
+C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Bugs\Create.cshtml.g.cs
+C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Bugs\Delete.cshtml.g.cs
+C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Bugs\Details.cshtml.g.cs
+C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Bugs\Edit.cshtml.g.cs
+C:\Users\nuryn\Desktop\CodingProjects\Bug-Tracker\obj\Debug\netcoreapp3.1\Razor\Views\Bugs\Index.cshtml.g.cs

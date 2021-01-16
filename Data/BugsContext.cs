@@ -15,7 +15,7 @@ namespace BugTracker.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server = .,5433; Database = Default; User Id = sa; Password = Passw0rd;");
+            optionsBuilder.UseSqlServer(@"Server = .,5433; Database = Default; User Id = sa; Password = Passw0rd;");
         }
     }
 }

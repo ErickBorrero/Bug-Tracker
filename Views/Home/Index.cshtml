@@ -1,60 +1,7 @@
-﻿@page
-@model BugTracker.Views.Home.IndexModel
-
-@*@{
-    ViewData["Title"] = "Index";
-}*@
-
-<h1>Index</h1>
-
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Bug[0].DateCreated)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Bug[0].Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Bug[0].Status)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Bug[0].ConfirmationStatus)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Bug[0].Category)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Bug) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateCreated)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ConfirmationStatus)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.BugId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.BugId">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.BugId">Delete</a>
-            </td>
-        </tr>
+﻿
+@{
+    ViewData["Title"] = "View";
 }
-    </tbody>
-</table>
+
+<h1>Hi</h1>
+
