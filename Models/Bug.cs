@@ -11,7 +11,11 @@ namespace BugTracker.Models
         [Key]
         public int BugId { get; set; }
 
+        [Display(Name = "Date Created")]
         public DateTime DateCreated { get; set; }
+
+        [Display(Name = "Date Resolved")]
+        public DateTime? DateResolved { get; set; }
 
         [Required]
         public string Description { get; set; }
