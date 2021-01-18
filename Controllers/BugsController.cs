@@ -54,7 +54,7 @@ namespace BugTracker.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("BugId,DateCreated,Description,Status,ConfirmationStatus,Category")] Bug bug)
+        public async Task<IActionResult> Create([Bind("BugId,DateCreated,DateResolved,Description,Status,ConfirmationStatus,Category")] Bug bug)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace BugTracker.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("BugId,DateCreated,Description,Status,ConfirmationStatus,Category")] Bug bug)
+        public async Task<IActionResult> Edit(int id, [Bind("BugId,DateCreated,DateResolved,Description,Status,ConfirmationStatus,Category")] Bug bug)
         {
             if (id != bug.BugId)
             {

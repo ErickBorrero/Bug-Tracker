@@ -4,12 +4,12 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h2>Reported Bugs</h2>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="table table-dark table-striped table-bordered">
     <thead>
         <tr>
             <th>
@@ -23,9 +23,19 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Status)
+                <select>
+                    <option>All</option>
+                    <option>Unresolved</option>
+                    <option>Resolved</option>
+                </select>
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.ConfirmationStatus)
+                <select>
+                    <option>All</option>
+                    <option>Unconfirmed</option>
+                    <option>Confirmed</option>
+                </select>
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Category)
@@ -54,9 +64,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Category)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.BugId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.BugId">Details</a> |
+            <td id="bugOptions">
+                <a asp-action="Edit" asp-route-id="@item.BugId">Edit</a> 
+                <a asp-action="Details" asp-route-id="@item.BugId">Details</a> 
                 <a asp-action="Delete" asp-route-id="@item.BugId">Delete</a>
             </td>
         </tr>
