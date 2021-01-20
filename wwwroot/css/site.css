@@ -99,12 +99,39 @@ html, body {
 
 .social_icon span {
     margin-left: 10px;
-    color: #FFC312;
+    color: #0F9D58;
 }
 
     .social_icon:hover {
         color: white;
         cursor: pointer;
+    }
+
+.social_icon button {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    font-weight: bold;
+    background-image: -webkit-linear-gradient(white 0%, #FFC312 100%);
+    background-image: linear-gradient(white 0%, #FFC312 100%);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+    .social_icon button:active { /*on click*/
+        -ms-transform: translateY(2px);
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+        background-image: -webkit-linear-gradient(white 0%, #FFC312 100%);
+        background-image: linear-gradient(white 0%, #FFC312 100%);
     }
 
 .card-header h3 {
