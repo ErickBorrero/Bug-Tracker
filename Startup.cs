@@ -26,6 +26,7 @@ namespace BugTracker
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddRazorPages();
 
             services.AddDbContext<BugsContext>(options =>
             {
@@ -55,6 +56,7 @@ namespace BugTracker
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -62,6 +64,8 @@ namespace BugTracker
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Bugs}/{action=Index}/{id?}");
+
+                endpoints.MapRazorPages();
             });
         }
     }
